@@ -1,4 +1,4 @@
-package Full0DoMaster;
+package Full0DoMaster.list1;
 
 public class Secondls {
     public static void main(String[] args) {

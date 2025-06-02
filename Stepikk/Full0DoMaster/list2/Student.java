@@ -1,4 +1,4 @@
-package Full0DoMaster;
+package Full0DoMaster.list2;
 
 public class Student {
     int  id;
@@ -8,6 +8,10 @@ public class Student {
     double greadMath;
     double greadEconomic;
     double greadEnglish;
+    void averageGrade(Student s){
+        double result = (s.greadMath + s.greadEconomic + s.greadEnglish)/3;
+        System.out.println("Средней оценкой является" + result);
+    }
 }
  class StudentTest {
     public static void main(String[] args) {
@@ -39,15 +43,17 @@ public class Student {
         s3.greadEconomic = 3.74;
         s3.greadEnglish = 4.25;
 
-        double result1 = 0;
-        double result2 = 0;
-        double result3 = 0;
+        s1.averageGrade(s1);
+        s2.averageGrade(s2);
+        s3.averageGrade(s3);
 
-        result1 = (s1.greadMath + s1.greadEconomic + s1.greadEnglish)/3;
-        result2 = (s2.greadMath + s2.greadEconomic + s2.greadEnglish)/3;
-        result3 = (s3.greadMath + s3.greadEconomic + s3.greadEnglish)/3;
-
-
-        System.out.println(result1);
+//        double result1 = 0;
+//        double result2 = 0;
+//        double result3 = 0;
+//
+//        result1 = (s1.greadMath + s1.greadEconomic + s1.greadEnglish)/3;
+//        result2 = (s2.greadMath + s2.greadEconomic + s2.greadEnglish)/3;
+//        result3 = (s3.greadMath + s3.greadEconomic + s3.greadEnglish)/3;
+//        System.out.println(result1);
     }
  }

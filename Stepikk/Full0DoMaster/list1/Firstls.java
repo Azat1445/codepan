@@ -5,5 +5,6 @@ public static void main(String[] args) {
     System.out.println("Мне неизвестно, что мне ничего не известно!");
     System.out.println("вот последняя правда, открытая мной.");
     System.out.println("                               О. Хайям");
+    //пенис
 
 }
